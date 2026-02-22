@@ -495,7 +495,7 @@ def medium_game():
                     tried.append(choice)
                 else:
                     print("You ran out of lives! The word was ", word,'.')
-            elif choice == 4:
+            elif choice == '4':
                 print('HINT: ', Medium[4])
                 word = "SPUTNIK 1"
                 display = []
@@ -532,7 +532,7 @@ def medium_game():
                     tried.append(choice)
                 else:
                     print("You ran out of lives! The word was ", word,'.')
-            elif choice == 5:
+            elif choice == '5':
                 print('HINT: ', Medium[5])
                 word = "METEOR"
                 display = ["_"] * len(word)
@@ -564,7 +564,7 @@ def medium_game():
                     tried.append(choice)
                 else:
                     print("You ran out of lives! The word was ", word,'.')
-            elif choice == 6:
+            elif choice == '6':
                 print('HINT: ', Medium[6])
                 word = "ASTEROID"
                 display = ["_"] * len(word)
@@ -596,7 +596,7 @@ def medium_game():
                     tried.append(choice)
                 else:
                     print("You ran out of lives! The word was ", word,'.')
-            elif choice == 7:
+            elif choice == '7':
                 print('HINT: ', Medium[7])
                 word = "ALIEN"
                 display = ["_"] * len(word)
@@ -628,7 +628,7 @@ def medium_game():
                     tried.append(choice)
                 else:
                     print("You ran out of lives! The word was ", word,'.')
-            elif choice == 8:
+            elif choice == '8':
                 print('HINT: ', Medium[8])
                 word = "NASA"
                 display = ["_"] * len(word)
@@ -660,7 +660,7 @@ def medium_game():
                     tried.append(choice)
                 else:
                     print("You ran out of lives! The word was ", word,'.')
-            elif choice == 9:
+            elif choice == '9':
                 print('HINT: ', Medium[9])
                 word = "VENUS"
                 display = ["_"] * len(word)
@@ -692,7 +692,7 @@ def medium_game():
                     tried.append(choice)
                 else:
                     print("You ran out of lives! The word was ", word,'.')
-            elif choice == 10:
+            elif choice == '10':
                 print('HINT: ', Medium[10])
                 word = "EXOPLANET"
                 display = ["_"] * len(word)
